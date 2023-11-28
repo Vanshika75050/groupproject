@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(./images/newheader1.jpeg);
+    background-size: cover;
+    width: 100%;
+}
+
+.ft {
+    color: white;
+    text-decoration: underline;
+    line-height: 52px;
+    font-family:kanit ;
+    margin-left: 10%;
+    font-size: 53px;
+    margin-top: 2%;
+}
+
+.header,
+img {
+    height: 250px;
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.first {
+    margin-top: 2.6%;
+    margin-left: 10%;
+}
+
+.second {
+    line-height: 32px;
+    font-family: kanit;
+    color: rgb(255, 221, 0);
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.home {
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 92%;
+    color: white;
+    margin-top: -213px;
+
+}
+
+.aboutus {
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 92%;
+    color: white;
+}
+.khtm{
+    margin-left: 34%;
+    padding: 7px;
+}
+
+/* .middle {
+    margin-left: 2%;
+    padding: 5px;
+} */
+
+.container,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+.container-8,
+.container-9,
+.container-10,
+.container-11,
+.container-12 {
+    position: relative;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 25px; /* Adjust the border-radius to change the button shape */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+
+.middle img {
+    margin-left: 11%;
+    padding: 8px;
+    height: 200px;
+    width: 401px;
+}
+.guru{
+    padding: 4px;
+    width:190px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin-left: 33%;
+}
+.guru1{
+    padding: 4px;
+    width:250px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin-left: 33%;
+}
+.guru2{
+    padding: 4px;
+    width:300px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin-left: 23%;
+}
+.guru3{
+    padding: 4px;
+    width:197px;
+    height: 60px;
+    /* border: 2px solid black; */
+    margin-left: 38%;
+}
+.container,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+.container-8,
+.container-9,
+.container-10,
+.container-11,
+.container-12 {
+    display: inline-block;
+}
+
+.middle button {
+    background-color: #ff8300;
+    color: black;
+    border: none;
+}
+.middle #vni{
+    width: 125px;
+    height: 35px;
+    background-color:  #1bd317;
+    color: white;
+    margin-left: 23px;
+    margin-top: 7px;
+    border-radius: 25px
+}
+
+.container button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 190px
+}
+
+.container-2 button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 190px;
+}
+
+.container-3 button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 221px;
+}
+
+.container-4 button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 190px;
+}
+
+.container-5 button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 190px;
+}
+
+.container-6 button {
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    top: 250px;
+    left: 221px;
+}
+
+/* 
+.container-7 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+}
+
+.container-8 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+}
+
+.container-9 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+}
+
+.container-10 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+}
+
+.container-11 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+}
+
+.container-12 button {
+    height: 32px;
+    width: 85px;
+    position: absolute;
+    top: 176px;
+    left: 8px;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font-family: Open Sans;
+}
+
+.footer-distributed {
+    background: #133b04;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 6px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #1bd317;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-left p a {
+    color: white;
+}
+
+.footer-distributed .footer-company-name {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 15%;
+    margin-left: 260px;
+    margin-top: -15px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.icons {
+    position: absolute;
+    top: 284px;
+    height: 65px;
+    width: 192px;
+    background-color: white;
+}
+
+.icons i {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.footer_second {
+    position: relative;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+.modal,
+.modal2 {
+    display: none;
+
+    position: fixed;
+
+    z-index: 1;
+
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content,
+.modal-content2,
+.modal-content3,
+.modal-content4,
+.modal-content5,
+.modal-content6,
+.modal-content7,
+.modal-content8,
+.modal-content9,
+.modal-content10,
+.modal-content11,
+.modal-content12 {
+    color: black;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 1000px;
+    line-height: 30px;
+}
+
+/* The Close Button */
+.close,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6,
+.close7,
+.close8,
+.close9,
+.close10,
+.close11,
+.close12 {
+    color: red;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* .close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+} */
+.modal span:hover {
+    cursor: pointer;
+}
+
+.modal img {
+    width: 290px;
+}
+
+.modal h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width:300px)and(max-width:496) {
+    .footer_second {
+        width: 100%;
+    }
+}
+
+@media (max-width:453px) {
+    .header {
+        height: 400px;
+    }
+
+    .headerbutton {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:994px) {
+    .middle img {
+        padding: 8px;
+        height: 200px;
+        width: 410px;
+    }
+}
+@media(max-width:920px){
+    .footer-company-about{
+        display: none;
+    }
+}
+@media(max-width:920px){
+    .footer-icons{
+        display: none;
+    }
+}
+
+@media(max-width:920px){
+    .footer-center i{
+        display: none;
+    }
+
+@media(max-width:920px){
+        .footer-center div{
+            display: none;
+        }
+    }}
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .social-icon {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .privacy-policy {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  
+
+    
