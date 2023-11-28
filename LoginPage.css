@@ -1,0 +1,44 @@
+.p {
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+  .points {
+      font-size: 25px;
+      border: 1px solid black;
+      padding: 10px;
+      width: 100%;
+  }
+  
+  
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .row div {
+    width: 50%;
+  }
+  
+  .one {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 15px;
+  }
+  
+  .two {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .three {
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 15px;
+  }
+  
+  .four {
+    padding: 10px;
+    border: 1px solid black;
+  }
