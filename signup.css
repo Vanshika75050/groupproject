@@ -1,3 +1,23 @@
+/* Css from Sohail for Navbar */
+
+.navbar {
+    background-color: #184a0c;
+    position: relative; /* Ensure the navbar has a positioning context */
+    z-index: 1000; /* Set a higher z-index than the fixed banner */
+  }
+  
+  /* Change navbar links' text color to white */
+  .navbar a {
+    color: white;
+  }
+  
+  .navbar .links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+
+
 body {
     background-image: url(theme.jpg) ;
     font-family: "Lato",Arial, Helvetica, sans-serif;
